@@ -1,0 +1,35 @@
+{
+  "name": "cz-tut",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "commitizen": "^2.9.6",
+    "cz-conventional-changelog": "^2.1.0",
+    "standard-version": "^4.2.0"
+  },
+  "devDependencies": {
+    "commitizen": "^2.9.6",
+    "cz-conventional-changelog": "^2.1.0",
+    "standard-version": "^4.2.0"
+  },
+  "scripts": {
+    "commit": "git-cz",
+    "release": "standard-version --release",
+    "release-patch": "standard-version --release-as patch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karrung/cz-tut.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/karrung/cz-tut/issues"
+  },
+  "homepage": "https://github.com/karrung/cz-tut#readme",
+  "czConfig": {
+    "path": "./node_modules/cz-conventional-changelog"
+  }
+}
